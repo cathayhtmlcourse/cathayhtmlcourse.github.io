@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>資訊充電站</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>資訊充電站</h2>
+				</section>
+				<section>
+					<section><h2>HTML, CSS, Javascript 快速入門</h2></section>
+					<section>
+						<h2>網頁 code 暖身</h2>
+						Facebook 盜密碼 + 惡搞頁面
+					</section>
+					<section>
+						<h2>HTML<span class="fragment" data-fragment-index="1">+CSS</span><span class="fragment" data-fragment-index="2">+Javascript</span></h2>
+						我們要養一隻狗<span class="fragment" data-fragment-index="1">，然後查狗食</span><span class="fragment" data-fragment-index="2">，然後餵牠吃</span>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>網頁code做簡報</h2>
+						<a href="https://github.com/hakimel/reveal.js/" target="_blank">reveal.js</a>
+						<br>
+						<a href="http://192.168.15.25:15871/cgi-bin/blockpage.cgi?ws-session=1501461795" target="_blank">Demo</a>
+					</section>
+					<section>
+						<h2>Powerpoint 的功能</h2>
+						<h2>reveal.js 都有，而且</h2>
+						<br>
+						<ul>
+							<li class="fragment">不需安裝軟體，只需瀏覽器。行動裝置完美顯示</li>
+							<li class="fragment">邏輯清晰，跳脫直線式</li>
+							<li class="fragment">不需要印 pdf 給別人</li>
+							<li class="fragment">互動式、科技感</li>
+						</ul>
+					</section>
+					<section>
+						<h2>我們來玩玩看</h2>
+						<a href="https://github.com/hakimel/reveal.js/" target="_blank">一直查 documentation 就對了</a>
+					</section>
+				</section>
+				<section>
+					<section><h2>把簡報丟上網</h2></section>
+					<section>
+						<h2>下載 Git: </h2><a href="https://git-scm.com/downloads" target="_blank">https://git-scm.com/downloads</a>
+						<br><br>
+						<div>之後打開 Git Bash</div>
+					</section>
+					<section>
+						<div><h2>常見的指令</h2></div>
+						<table>
+						  <tr>
+						    <td>進入資料夾</td>
+						    <td><code>cd (..)</code></td>
+						  </tr>
+						  <tr>
+						    <td>列出資料夾內檔案</td>
+						    <td><code>ls</code></td>
+						  </tr>
+						  <tr>
+						    <td>自動填完檔案路徑</td>
+						    <td><input type="button" value="Tab"  style="font-size: 25px; "></td>
+						  </tr>
+						</table>
+					</section>
+					<section>
+						<div>Github 上創建 repository</div>
+						<div>創好之後，以後就繼續用這個 repo</div>
+						<img src="images/new-repo.png" style="width:40%;">
+						<img src="images/new-repo-2.png" style="width:40%;">
+						<div>重要: Repository name 要參考 owner!!!</div>
+					</section>
+					<section>
+						<div>把 Github repo 複製進自己電腦</div>
+						<br>
+						<div>在 Git Bash 裡面打:</div>
+						<code>git config --global http.sslVerify false</code>
+						<br>
+						<code style="font-size: 70%">git clone https://github.com/username/username.github.io</code>
+					</section>
+					<section>
+						<div>把電腦的版本推到 Github 上</div>
+						<br>
+						<div>打:</div>
+						<code>git add --all</code>
+						<br>
+						<code>git commit -m "<這邊打註解>"</code>
+						<br>
+						<code>git push -u origin master</code>
+					</section>
+					<section>
+						<h2>你的簡報會在: </h2>
+						<div>http://<帳號名稱>.github.io/</div>
+					</section>
+				</section>
+				<section><h2>輸出成 pdf</h2>網址動點手腳後<br>再用 Google Chrome 的列印功能</section>
+				<section>
+					<h2>下課前...</h2>
+					<a href="https://drive.google.com/folderview?id=0B3O2-f3taeFYZl9uM2lqdnU4WHM&usp=sharing" target="_blank">把作品丟上 Google Drive 分享!</a>
+					<br>
+					<div>需要用 Google Chrome 才能上傳未壓縮的資料夾</div>
+					<br>
+					<a href="https://goo.gl/forms/JQn038MieuGGEHjA3" target="_blank">然後考個試、填個問卷</a>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
